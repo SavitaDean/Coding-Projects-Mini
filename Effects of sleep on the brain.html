@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects of Sleep on the brain 🧠 </title>
+    <style>
+        body{
+            background-color: #A9D3FF;
+        }
+        h1{
+            text-align: center;
+            color: wheat;
+            border: 2px solid wheat;
+            padding: 20px;
+            border-radius: 10px
+        }
+        h2{
+            text-align: center;
+            color: wheat;
+            padding: 20px;h
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width: 50%;
+            border-radius: 10px;
+            
+        }
+        p{
+            line-height: 1.5;
+            font-size: 13px;
+            margin: 0 0 10px;
+
+        }
+        .learn-more{
+            display: block;
+            margin-top: 10px🧮;
+            text-decoration:underline;
+            font-size:11px;
+
+        }
+        .learn-more:hover{
+            text-decoration: underline;
+            
+        }
+        .sleep{
+            text-align: center;
+            margin: 20px 100px
+
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            background: wheat;
+            color: #ffffff;
+            font-size: 18px;
+            padding 20px 30px;
+            border:none;
+            border-radius: 6px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            transition: all 275ms ease-in-out;
+        }
+
+        button:hover{
+            background: #ffffff;
+            cursor: pointer;
+            color: wheat;
+        }
+        .container{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px 60px;
+        }
+        .footer{
+            text-align: center;
+            font-family: monospace;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+<div>
+   <h1>
+    The Effects of Sleep on Memory 🧠 
+   </h1> 
+   <h2>
+        Does snoozing aid memory storage?
+   </h2>
+   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/368/original/Memory.jpg?1677545789" alt="Memory origins in brain" 
+   >
+   <p class = "sleep">
+The answer is a resounding YES! During a sleep cycle, your brain filters 
+through different phases of sleep. These phases consist of light sleep, deeps sleep,
+and REM or "Rapid eye movement". One benefit to allowing adequate sleep is that daily act
+removes toxins from our brains that build while awake. So how does lack of sleep affect us? 
+It decreases our ability to learn by 40%! This is because it affects the hippocampus, whos 
+primary function is memory consolidation and storage. Sleep deprivation promotes the accululation 
+of amyloid beta clumps associated with Alzheimers damages first the hippocampus and strctures 
+associated. This is just one of the many risks associate with depriving our brain of rest. So lets
+promote good sleep habits!
+<b/>
+Learn more at
+   <a href="https://dana.org/article/the-sleep-deprived-brain/ "
+   target ="_blank"
+   class=" "learn-more" >
+   dana.org/article/the-sleep-deprived-brain/
+   </a>
+   </p>
+   <button class = "natural-button">
+    🌿Natural Sleep Aids
+   </button>
+   <b/>
+   <p class = "footer">
+    Page built by Savita Dean 🔬 
+   </p>
+</div>
+<script>
+    function natural() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let amount = prompt("How many hours of sleep do you get a night? 💤 ");
+
+        alert(
+            "Thank you "  +
+            name + 
+            "! We'll send you updates on how you can better improve your sleep. Meanwhile here are some natural supplements to help!" 
+        );
+    }
+    let naturalButton = document.querySelector(".natural-button");
+    naturalButton.addEventListener("click", natural);
+</script>
+</body>
+</html>
